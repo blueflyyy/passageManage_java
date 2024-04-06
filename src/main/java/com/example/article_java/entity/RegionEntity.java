@@ -1,0 +1,50 @@
+package com.example.article_java.entity;
+
+public class RegionEntity {
+    private int id;
+    private String title;
+    private String label;
+    private String value;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getLabel() {
+        return label;
+    }
+
+    public void setLabel(String label) {
+        this.label = label;
+    }
+
+    public String getValue() {
+        return value;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
+    }
+
+    public RegionEntity() {
+    }
+
+    public RegionEntity(int id, String title, String label, String value) {
+        this.id = id;
+        this.title = title;
+        this.label = label;
+        this.value = value;
+    }
+}
